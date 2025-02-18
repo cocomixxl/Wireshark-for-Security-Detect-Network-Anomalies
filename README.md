@@ -64,5 +64,54 @@ Filtering Captured Data
 - Reusable Techniques: The logic behind filtering (e.g., by protocol or IP) applies universally across various network analysis scenarios.
 ***
 ![Screenshot 2025-02-18 114329](https://github.com/user-attachments/assets/571998bc-a079-41ce-9dff-c74a0bc1761b)
-
-
+![Screenshot 2025-02-18 115702](https://github.com/user-attachments/assets/9d664e49-704c-4943-8ae2-f3c733d36dc6)
+![Screenshot 2025-02-18 115745](https://github.com/user-attachments/assets/3748fff9-74c6-46a8-968c-e4b7dfd077ee)
+![Screenshot 2025-02-18 115811](https://github.com/user-attachments/assets/d5f74ee4-1ee8-45e9-a4bb-7cd9f43add7b)
+![Screenshot 2025-02-18 115859](https://github.com/user-attachments/assets/ac29aca9-14ab-47b0-8bd6-4ac237d33422)
+### Key Takeaways
+- Start Simple, Build Gradually: Begin with broad filters to
+understand overall patterns, then refine your approach to isolate
+critical data.
+- Consistency is Key: Standardize your filtering and analysis
+methods to ensure repeatable and reliable results.
+- Stay Organized: Always save filtered results and annotate key
+findings to maintain clarity during extended investigations.
+### Task 4
+Analyzing Traffic for Threats
+- Detect common threats
+- Document findings and propose
+mitigation measures.
+![Screenshot 2025-02-18 120554](https://github.com/user-attachments/assets/e580305c-1d3a-47c3-915b-b58025374187)
+![Screenshot 2025-02-18 120710](https://github.com/user-attachments/assets/2c6bb1ad-84f0-4c51-891b-a3b59885c75b)
+![Screenshot 2025-02-18 120813](https://github.com/user-attachments/assets/8fc06444-2a10-4220-a827-9152af2503bc)
+![Screenshot 2025-02-18 121117](https://github.com/user-attachments/assets/32eac7d2-9efc-471e-802f-bed917cf927a)
+### Key Takeaways
+- Recognize Patterns: Familiarity with normal traffic patterns
+enables faster detection of potential threats or anomalies.
+- Context Matters: Malicious activity often mimics legitimate traffic-contextualizing behavior is essential for accurate threat
+identification.
+- Continuous Learning: Threat detection skills improve over time with exposure to new attack techniques and evolving protocols.
+### Task 5
+Practical Analysis
+- TCP SYN Flood Attack
+- Wireshark's Statistics Tools
+- Recognizing Attack pattern
+![Screenshot 2025-02-18 121549](https://github.com/user-attachments/assets/5498d470-ea92-4509-aa82-95bde64f0c84)
+![Screenshot 2025-02-18 121759](https://github.com/user-attachments/assets/72381bdc-3c01-4e4c-8219-ccd7ff84657c)
+![Screenshot 2025-02-18 121816](https://github.com/user-attachments/assets/05f70fba-1f46-4f39-b24f-92c9ec87ad80)
+![Screenshot 2025-02-18 121914](https://github.com/user-attachments/assets/225b9a9d-f949-4693-83c1-e60d4dcfba89)
+![Screenshot 2025-02-18 122033](https://github.com/user-attachments/assets/4110a014-240b-4ede-aec8-92701d015231)
+### Mitigating the Attack
+- Server Configuration
+- Firewall and Intrusion Detection Systems (IDS)
+- SYN Cookies
+### Key Takeaways
+- Holistic Traffic Analysis: Leveraging multiple Wireshark tools like IO Graphs, Conversations, and Endpoints helps uncover attack patterns and verify anomalies.
+- Efficient Filtering Techniques: Precise filters like tcp.flags.syn == 1 && tcp.flags.ack=0 enable faster isolation of relevant packets, saving time during analysis.
+- Actionable Insights: Knowing how to filter and interpret SYN Flood traffic empowers users to identify and mitigate such attacks effectively.
+  ***
+  ### Commulative activity
+  ![image](https://github.com/user-attachments/assets/5e39a538-796c-4b55-8339-0fe3d5196ebc)
+tcp.flags.syn == 1 && tcp.flags.ack == 0
+tcp.len < 60
+[Wireshark-Cheat-Sheet.pdf](https://github.com/user-attachments/files/18850335/Wireshark-Cheat-Sheet.pdf)
