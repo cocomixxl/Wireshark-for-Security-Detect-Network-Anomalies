@@ -115,3 +115,20 @@ Practical Analysis
 tcp.flags.syn == 1 && tcp.flags.ack == 0
 tcp.len < 60
 [Wireshark-Cheat-Sheet.pdf](https://github.com/user-attachments/files/18850335/Wireshark-Cheat-Sheet.pdf)
+![Screenshot 2025-02-18 123344](https://github.com/user-attachments/assets/79c382ce-977d-436a-8a04-094a3b591bf2)
+![Screenshot 2025-02-18 123440](https://github.com/user-attachments/assets/c6bef4c7-fc83-49b8-a32e-079f28c48d58)
+![Screenshot 2025-02-18 123632](https://github.com/user-attachments/assets/2f088c0a-9274-47d2-84e5-140476c20f42)
+![Screenshot 2025-02-18 123841](https://github.com/user-attachments/assets/992efdff-ff9c-4d8a-bc5a-c15a350f0cc7)
+![Screenshot 2025-02-18 124118](https://github.com/user-attachments/assets/c00e27cd-5f20-4b44-8cc4-235b57d82ec6)
+![Screenshot 2025-02-18 125022](https://github.com/user-attachments/assets/3d69e029-af6e-4703-b5ed-f8948fc97ff3)
+The traffic to port 4444 is suspicious and often linked to malware. Here’s what to do:
+
+- Check the Device: Find out which device (192.168.1.56) is trying to connect to port 4444. Scan it for malware.
+
+- Block the Port: Use your firewall to block traffic to port 4444 unless it’s needed.
+
+- Update Systems: Make sure all devices and software are up to date to fix security holes.
+
+- Monitor Network: Use security tools to watch for unusual activity.
+
+- Educate Users: Teach users to avoid risky actions like clicking on suspicious links.
